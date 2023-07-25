@@ -1,3 +1,0 @@
-C:/Users/curti/repositories/Summer2023/mavgen_patch/build/CMakeFiles/main.dir
-C:/Users/curti/repositories/Summer2023/mavgen_patch/build/CMakeFiles/ALL_BUILD.dir
-C:/Users/curti/repositories/Summer2023/mavgen_patch/build/CMakeFiles/ZERO_CHECK.dir

@@ -12,5 +12,25 @@
         <field type="uint8_t" name="system_status">System status flag, see MAV_STATE ENUM</field>
         <field type="uint8_t_mavlink_version" name="mavlink_version">MAVLink version, not writable by user, gets added by protocol because of magic data type: uint8_t_mavlink_version</field>
         </message>
+
+        <message id="1" name="MODE_CHANGE_REQUEST">
+          <field type="uint8_t" name="MODE" enum="MODES">Mode helicopter is using.</field>
+        </message>
+
     </messages>
+    <enums>
+      <enum name="MODES">
+        <entry value="200" name="MISSION">
+          <description>Mission mode.</description>
+        </entry>
+
+        <entry value="201" name="KNOBS">
+          <description>KNOBS mode.</description>
+        </entry>
+
+        <entry value="202" name="STICKS">
+          <description>STICKS mode.</description>
+        </entry>
+      </enum>
+    </enums>
 </mavlink>

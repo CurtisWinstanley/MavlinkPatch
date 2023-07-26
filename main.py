@@ -9,8 +9,12 @@ from generator import mavparse
 
 def main():
     print("Hello World!")
-    xml_list = ["testMavMessage.xml"]
-    opts = mavgen.Opts(output="./messages",language="c", wire_protocol=mavparse.PROTOCOL_2_0)
+
+    current_directory = os.getcwd() + "/build/_deps/mavlinkpatch-src"
+    print(current_directory)
+
+    xml_list = [current_directory+"/testMavMessage.xml"]
+    opts = mavgen.Opts(output= current_directory+"/messages",language="c", wire_protocol=mavparse.PROTOCOL_2_0)
     #mavgen_cpp11.generate(opts, xml_list)
     mavgen.mavgen(opts, xml_list)
 

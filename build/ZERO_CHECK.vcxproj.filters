@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\curti\repositories\Summer2023\mavgen_patch\build\CMakeFiles\49374ec08c54e582060a0ea32229403a\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{DD979686-14A0-314E-A1A6-6AA2D8531934}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
